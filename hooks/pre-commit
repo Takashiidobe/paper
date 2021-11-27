@@ -1,0 +1,5 @@
+#!/bin/sh
+
+make html && make pdf && make docx && make epub
+
+git add output/
