@@ -15,18 +15,16 @@ link-citations: true
 
 \*To whom correspondence should be addressed
 
-
-
-## Abstract
+# Abstract
 
 Linked references [@test; @test2].
 
 
-## Introduction
+# Introduction
 
 Inline equation $E=mc^2$.
 
-## Methods
+# Methods
 
 Numbered, referenced, linked block equation, see +@eq:einstein.
 
@@ -35,7 +33,7 @@ E = mc^2
 $$ {#eq:einstein}
 
 
-## Results
+# Results
 
 Numbered, referenced, linked table, see +@tbl:results.
 
@@ -47,10 +45,10 @@ a | b | c
 Table: The table caption. {#tbl:results}
 
 
-## Conclusion
+# Conclusion
 
 Numbered, referenced, linked figure, see +@fig:xkcd.
 
 ![The figure caption.](figures/self_description.png){#fig:xkcd}
 
-## References
+# References

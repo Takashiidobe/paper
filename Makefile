@@ -1,11 +1,9 @@
 .PHONY: phony
 
-PAPER_NAME="Paper"
 GRAPHVIZ_FILES = $(shell find ./graphviz -name '*.dot')
 FIGURES = $(shell find ./figures -name '*.svg')
 
 PANDOCFLAGS =                        \
-	--metadata title=$(PAPER_NAME)     \
 	--bibliography references.bib      \
   --table-of-contents                \
   --from=markdown                    \
@@ -17,7 +15,7 @@ PANDOCFLAGS =                        \
   --indented-code-classes=javascript
 
 HTML_FLAGS =                         \
-	--template=./templates/paper.html   \
+	--template=./templates/paper.html  \
 	--self-contained
 
 PDF_FLAGS =                          \
